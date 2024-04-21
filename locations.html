@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Find My Workspace</title>
     <style>
         /* Style for clickable location names */
@@ -14,17 +14,23 @@
     </style>
 </head>
 <body>
-    <header class="header">
-        <h1>Find My Workspace</h1>
-        <nav class="topnav">
-            <a href="#">Locations</a>
-            <a href="#">Reviews</a>
-            <a href="#">About Us</a>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html"><img src="img/logo.png" alt="Find My Workspace Logo" class="logo"></a>
+        </div>
+        <div class="navbar-links">
+            <a href="locations.html">Locations</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#about">About Us</a>
+        </div>
+    </nav>
 
     <section class="content">
-        <h2>Locations</h2>
+        <div class="header-container">
+            <h1>Locations</h1>
+            <button class="add-location-button" id="addLocationBtn">Add Location</button>
+        </div>
+        <br />
         <table id="locationTable">
             <thead>
                 <tr>
@@ -42,11 +48,10 @@
         <div id="imageContainer">
             <!-- Image will be loaded here -->
         </div>
-        <button id="addLocationBtn">Add Location</button>
         <script>
             // Preloaded Excel data (for demonstration)
             let excelData = [
-            ['Armature Works', '4.6', 'Food court', '1910 N Ola Ave, Tampa, FL 33602', 'Tampa'],
+                ['Armature Works', '4.6', 'Food court', '1910 N Ola Ave, Tampa, FL 33602', 'Tampa'],
                 ['Buddy Brew Coffee', '4.4', 'Coffee shop', 'Hyde Park, 1605 W Snow Ave, Tampa, FL 33606', 'Tampa'],
                 ['Sparkman Wharf', '4.5', 'Plaza', '615 Channelside Dr, Tampa, FL 33602', 'Tampa'],
                 ['Felicitous (on 51st)', '4.7', 'Coffee shop', '11706 N 51st St, Tampa, FL 33617', 'Tampa'],
@@ -263,8 +268,8 @@
         </script>
     </section>
 
-    <footer class="footer">
-        © 2024 Find My Workspace
+    <footer>
+        &copy; 2024 Find My Workspace
     </footer>
 </body>
 </html>
