@@ -182,47 +182,45 @@ h1 {
     }
 }
 
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em 0;
+}
 
+.team-member {
+    margin: 1em;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+    width: calc(50% - 2em);
+    box-sizing: border-box;
+}
 
-/* CSS HEX */
---vivid-sky-blue: #56cbf9ff;
---midnight-green: #0b5563ff;
---davys-gray: #5e5c6cff;
---cerise: #f0386bff;
---bright-pink-crayola: #ff5376ff;
-/* CSS HSL */
---vivid-sky-blue: hsla(197, 93%, 66%, 1);
---midnight-green: hsla(190, 80%, 22%, 1);
---davys-gray: hsla(248, 8%, 39%, 1);
---cerise: hsla(343, 86%, 58%, 1);
---bright-pink-crayola: hsla(348, 100%, 66%, 1);
-/* SCSS HEX */
-$vivid-sky-blue: #56cbf9ff;
-$midnight-green: #0b5563ff;
-$davys-gray: #5e5c6cff;
-$cerise: #f0386bff;
-$bright-pink-crayola: #ff5376ff;
-/* SCSS HSL */
-$vivid-sky-blue: hsla(197, 93%, 66%, 1);
-$midnight-green: hsla(190, 80%, 22%, 1);
-$davys-gray: hsla(248, 8%, 39%, 1);
-$cerise: hsla(343, 86%, 58%, 1);
-$bright-pink-crayola: hsla(348, 100%, 66%, 1);
-/* SCSS RGB */
-$vivid-sky-blue: rgba(86, 203, 249, 1);
-$midnight-green: rgba(11, 85, 99, 1);
-$davys-gray: rgba(94, 92, 108, 1);
-$cerise: rgba(240, 56, 107, 1);
-$bright-pink-crayola: rgba(255, 83, 118, 1);
-/* SCSS Gradient */
-$gradient-top: linear-gradient(0deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-right: linear-gradient(90deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-bottom: linear-gradient(180deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-left: linear-gradient(270deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-top-right: linear-gradient(45deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-bottom-right: linear-gradient(135deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-top-left: linear-gradient(225deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-bottom-left: linear-gradient(315deg, #56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
-$gradient-radial: radial-gradient(#56cbf9ff, #0b5563ff, #5e5c6cff, #f0386bff, #ff5376ff);
+    .team-member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin-bottom: 1em;
+    }
 
+.team-info {
+    text-align: left;
+}
+
+.data-model-container {
+    text-align: center;
+    padding: 2em 0;
+}
+
+    .data-model-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+#github-repo {
+    text-align: center;
+    padding: 2em 0;
 

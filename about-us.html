@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us - Find My Workspace</title>
-    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
     <header>
-        <h1>Finding My Workspace</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="locations.html">Locations</a>
-            <a href="reviews.html">Reviews</a>
-            <a href="about.html">About Us</a>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html"><img src="img/logo.png" alt="Find My Workspace Logo" class="logo"></a>
+            </div>
+            <div class="navbar-links">
+                <a href="locations.html">Locations</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="about-us.html">About Us</a>
+            </div>
         </nav>
     </header>
 
     <main>
         <section id="team">
-            <h2>About Our Team</h2>
+            <div class="header-container">
+                <h1>About Our Team</h1>
+            </div>
+            <br />
             <div class="team-members">
                 <article class="team-member">
                     <img src="img/anoop.jpeg" alt="Anoop Garige">
@@ -27,7 +33,7 @@
                         <h3>Anoop Garige</h3>
                         <p>Aspiring Business Analyst</p>
                         <p>Contributions: Developed AboutUs Page and Oversaw project direction.</p>
-                        <a href = "https://github.com/Anoop135" > GitHub Page</a>
+                        <a href="https://github.com/Anoop135"> GitHub Page</a>
                     </div>
                 </article>
                 <article class="team-member">
@@ -36,7 +42,7 @@
                         <h3>Asif Imtiaz</h3>
                         <p>Aspiring Data Analyst</p>
                         <p>Contributions: Developed Locations Page and Worked on GitHub</p>
-                        <a href = "https://github.com/asif-imtiaz-j" > GitHub Page</a>
+                        <a href="https://github.com/asif-imtiaz-j"> GitHub Page</a>
                     </div>
                 </article>
                 <article class="team-member">
@@ -44,8 +50,8 @@
                     <div class="team-info">
                         <h3>Devan Kreitzer</h3>
                         <p>Aspiring Data Engineer</p>
-                        <p>Contributions: Developed Reviews Page and Created the Data Model</p>
-                        <a href = "https://github.com/dkreitzer-usf" > GitHub Page</a>
+                        <p>Contributions: Developed Index Page, Reviews Page, and Created the Site's Data Model</p>
+                        <a href="https://github.com/dkreitzer-usf"> GitHub Page</a>
                     </div>
                 </article>
                 <article class="team-member">
@@ -53,27 +59,34 @@
                     <div class="team-info">
                         <h3>Zeina Kamal</h3>
                         <p>Aspiring Software Engineer</p>
-                        <p>Contributions: Developed Home Page and CSS.</p>
-                        <a href = "https://github.com/zrkamal" > GitHub Page</a>
+                        <p>Contributions: Developed Site Webframe</p>
+                        <a href="https://github.com/zrkamal"> GitHub Page</a>
                     </div>
                 </article>
             </div>
         </section>
 
         <section id="data-model">
-            <h2>Data Model</h2>
+            <div class="header-container">
+                <h1>Data Model</h1>
+            </div>
+            <br />
             <div class="data-model-container">
                 <img src="img/datamodel.png" alt="Data Model">
             </div>
         </section>
 
         <section id="github-repo">
-            <h2>GitHub Repository</h2>
-            <p><a href="https://github.com/dkreitzer-usf/DIS6225_FinalProject">Visit our GitHub Repository</a></p>
+            <div class="header-container">
+                <h1>Github Repository</h1>
+            </div>
+            <br />
+            <a href="https://github.com/dkreitzer-usf/DIS6225_FinalProject" class="cta-button">Visit our GitHub Repository</a>
         </section>
     </main>
-    <footer class="footer">
-        <p>© 2024 Find My Workspace. All rights reserved.</p>
+
+    <footer>
+        &copy; 2024 Find My Workspace
     </footer>
     
 </body>
