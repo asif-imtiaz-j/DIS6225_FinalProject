@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Find My Workspace</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
 
+
+
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html"><img src="img/logo.png" alt="Find My Workspace Logo" class="logo"></a>
+        </div>
+        <div class="navbar-links">
+            <a href="locations.html">Locations</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="about-us.html">About Us</a>
+        </div>
+    </nav>
+
+    <div class="header-container">
+        <h1>Reviews</h1>
+    </div>
+    <br />
+
+    <section class="review-form">
+        <h2>Add a Review</h2>
+        <form id="review-form">
+            <input type="text" id="rating" name="rating" placeholder="Enter a number" required>
+            <input type="text" id="location" name="location" placeholder="Location" required>
+            <br />
+            <select id="recommend" name="recommend" required>
+                <option value="">Would you recommend?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <br />
+            <textarea id="review" name="review" placeholder="Review" required></textarea>
+            <br />
+            <button class="cta-button" type="submit">Submit Review</button>
+        </form>
+    </section>
+    <br />
+
+    <section class="reviews-table">
+        <h2>All Reviews</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rating</th>
+                    <th>Location</th>
+                    <th>Recommend?</th>
+                    <th>Review</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>5 stars</td>
+                    <td>Downtown Cafe</td>
+                    <td>Yes</td>
+                    <td>Great ambiance and excellent coffee, perfect for working!</td>
+                </tr>
+                <tr>
+                    <td>4 stars</td>
+                    <td>Seaside Eatery</td>
+                    <td>No</td>
+                    <td>Beautiful sea view but a bit noisy for meetings.</td>
+                </tr>
+                <tr>
+                    <td>3 stars</td>
+                    <td>Library Lounge</td>
+                    <td>Yes</td>
+                    <td>Quiet and peaceful, but lacks power outlets.</td>
+                </tr>
+                <tr>
+                    <td>4.5 stars</td>
+                    <td>Market Street Bistro</td>
+                    <td>Yes</td>
+                    <td>Cozy place with a great selection of sandwiches. Ideal for casual business lunches.</td>
+                </tr>
+                <tr>
+                    <td>3.5 stars</td>
+                    <td>The Greenhouse</td>
+                    <td>Yes</td>
+                    <td>Lovely atmosphere with lots of plants, but the chairs aren't comfortable for long sessions.</td>
+                </tr>
+                <tr>
+                    <td>5 stars</td>
+                    <td>Riverside Cafe</td>
+                    <td>Yes</td>
+                    <td>Best spot in town for a coffee and a view. The internet is fast and reliable.</td>
+                </tr>
+                <tr>
+                    <td>2 stars</td>
+                    <td>Central Park Deli</td>
+                    <td>No</td>
+                    <td>Convenient location but the food quality has room for improvement.</td>
+                </tr>
+                <tr>
+                    <td>4 stars</td>
+                    <td>Sunrise Diner</td>
+                    <td>Yes</td>
+                    <td>Open early, great for morning people. The breakfast menu is fantastic.</td>
+                </tr>
+                <tr>
+                    <td>4.8 stars</td>
+                    <td>Harbor Cafe</td>
+                    <td>Yes</td>
+                    <td>Such a beautiful view to accompany a top-notch latte.</td>
+                </tr>
+                <tr>
+                    <td>4.2 stars</td>
+                    <td>Metro Grill</td>
+                    <td>Yes</td>
+                    <td>A bit crowded, but the service is quick and the food complements the work vibe.</td>
+                </tr>
+                <tr>
+                    <td>3.9 stars</td>
+                    <td>Garden Bistro</td>
+                    <td>Yes</td>
+                    <td>Quiet and serene. Great for reading or a peaceful work session.</td>
+                </tr>
+                <tr>
+                    <td>4.7 stars</td>
+                    <td>City Lights Bookstore</td>
+                    <td>Yes</td>
+                    <td>An inspiring place surrounded by literature. Perfect for writing reviews!</td>
+                </tr>
+                <tr>
+                    <td>2.8 stars</td>
+                    <td>The Old Pub</td>
+                    <td>No</td>
+                    <td>Lovely historical vibe but not suitable for work due to the dim lighting.</td>
+                </tr>
+                <tr>
+                    <td>5.0 stars</td>
+                    <td>Sunshine Bakery</td>
+                    <td>Yes</td>
+                    <td>The pastries are divine, and the coffee is the best in town. Ideal for morning meetings.</td>
+                </tr>
+                <tr>
+                    <td>3.3 stars</td>
+                    <td>Riverside Deli</td>
+                    <td>No</td>
+                    <td>Great sandwiches, but the riverside location means it can get quite noisy.</td>
+                </tr>
+                <tr>
+                    <td>4.0 stars</td>
+                    <td>Summit Cafe</td>
+                    <td>Yes</td>
+                    <td>Spacious and modern - it's become my go-to workspace when out of the office.</td>
+                </tr>
+                <tr>
+                    <td>4.5 stars</td>
+                    <td>Greenhouse Cafe</td>
+                    <td>Yes</td>
+                    <td>Plenty of greenery and natural light makes for a relaxing work environment.</td>
+                </tr>
+                <tr>
+                    <td>2.5 stars</td>
+                    <td>Midtown Diner</td>
+                    <td>No</td>
+                    <td>Not the best for working - too noisy and the tables are sticky.</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <br />
+
+    <footer>
+        &copy; 2024 Find My Workspace
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

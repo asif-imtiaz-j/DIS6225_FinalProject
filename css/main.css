@@ -46,7 +46,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0 15px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold; 
 }
 
@@ -223,4 +223,47 @@ h1 {
 #github-repo {
     text-align: center;
     padding: 2em 0;
+}
 
+
+.review-form h2 {
+    padding: 10px 0;
+}
+
+.review-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.review-form button {
+    padding: 10px 20px;
+    background-color: #0B5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reviews-table table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-bottom: 50px;
+}
+
+.reviews-table th {
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.reviews-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
