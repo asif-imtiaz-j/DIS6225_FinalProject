@@ -26,6 +26,61 @@
     </div>
     <br />
 
+    <section>
+        <h2>Distribution of Reviews</h2>
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+            const ctx = document.getElementById('myChart');
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["5 stars", "4.5 stars", "4 stars", "3.5 stars", "3 stars", "2.5 stars", "2 stars", "1.5 stars", "1 star"],
+                    datasets: [{
+                        label: '# of Votes',
+                        data: [7, 5, 8, 2, 3, 1, 2, 0, 1],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(199, 199, 199, 0.2)',
+                            'rgba(83, 102, 255, 0.2)',
+                            'rgba(40, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(159, 159, 159, 1)',
+                            'rgba(83, 102, 255, 1)',
+                            'rgba(40, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    </section>
+    <br />
+
     <section class="review-form">
         <h2>Add a Review</h2>
         <form id="review-form">
@@ -175,6 +230,5 @@
         &copy; 2024 Find My Workspace
     </footer>
 
-    <script src="js/main.js"></script>
 </body>
 </html>

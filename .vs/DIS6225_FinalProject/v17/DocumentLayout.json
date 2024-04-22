@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\locations.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:locations.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\sample.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sample.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\about-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\reviews.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:reviews.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\css\\styles2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\styles2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +50,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\js\\main.js",
+              "RelativeDocumentMoniker": "js\\main.js",
+              "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\js\\main.js",
+              "RelativeToolTip": "js\\main.js",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-22T00:39:24.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "styles2.css",
+              "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\css\\styles2.css",
+              "RelativeDocumentMoniker": "css\\styles2.css",
+              "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\css\\styles2.css",
+              "RelativeToolTip": "css\\styles2.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-22T00:10:03.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.css",
               "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\css\\main.css",
               "RelativeDocumentMoniker": "css\\main.css",
               "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\css\\main.css",
               "RelativeToolTip": "css\\main.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
+              "ViewState": "AQIAAOMAAAAAAAAAAAAAAAMBAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-04-19T02:46:25.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "sample.html",
-              "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\sample.html",
-              "RelativeDocumentMoniker": "sample.html",
-              "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\sample.html",
-              "RelativeToolTip": "sample.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-19T02:17:34.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-04-19T02:02:35.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "locations.html",
+              "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\locations.html",
+              "RelativeDocumentMoniker": "locations.html",
+              "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\locations.html",
+              "RelativeToolTip": "locations.html",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T19:21:50.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "about-us.html",
+              "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\about-us.html",
+              "RelativeDocumentMoniker": "about-us.html",
+              "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\about-us.html",
+              "RelativeToolTip": "about-us.html",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-22T00:06:19.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "reviews.html",
+              "DocumentMoniker": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\reviews.html",
+              "RelativeDocumentMoniker": "reviews.html",
+              "ToolTip": "C:\\Users\\devan\\source\\repos\\DIS6225_FinalProject\\reviews.html",
+              "RelativeToolTip": "reviews.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T23:24:26.926Z",
               "EditorCaption": ""
             }
           ]
