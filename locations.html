@@ -25,143 +25,146 @@
         </div>
     </nav>
 
-    <section class="content">
+
+    <div class="content">
         <div class="header-container">
             <h1>Locations</h1>
             <button class="add-location-button" id="addLocationBtn">Add Location</button>
         </div>
         <br />
 
-        <section>
-            <h2>City Proportion </h2>
-            <div>
+        <div class="charts-container">
+            <div class="chart-container">
+                <h2>City Proportion </h2>
                 <canvas id="myChart"></canvas>
             </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-            <script>
-                const ctx = document.getElementById('myChart');
-
-                new Chart(ctx, {
-                    type: 'doughnut',
-                    data: {
-                        labels: ["Tampa", "Orlando", "Clearwater", "St. Petersburg"],
-                        datasets: [{
-                            label: '# of Locations',
-                            data: [5, 4, 3, 3],
-                            backgroundColor: [
-                                'rgba(255, 99, 132, 0.2)',
-                                'rgba(54, 162, 235, 0.2)',
-                                'rgba(255, 206, 86, 0.2)',
-                                'rgba(75, 192, 192, 0.2)'
-                            ],
-                            hoverOffset: 4
-                        }]
-                    }
-                });
-            </script>
-        </section>
-
-
-        <section>
-            <h2>Location Type </h2>
-            <div>
+            <div class="chart-container">
+                <h2>Location Type </h2>
                 <canvas id="myChart2"></canvas>
             </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-            <script>
-                const cty = document.getElementById('myChart2');
-
-                new Chart(cty, {
-                    type: 'polarArea',
-                    data: {
-                        labels: ["Food court", "Coffee shop", "Plaza", "Shopping mall", "Cafe", "Cocktail bar", "Brunch restaurant"],
-                        datasets: [{
-                            label: 'Location Type',
-                            data: [1, 8, 1, 1, 2, 1, 1],
-                            backgroundColor: [
-                                'rgba(255, 99, 132, 0.2)',
-                                'rgba(54, 162, 235, 0.2)',
-                                'rgba(255, 206, 86, 0.2)',
-                                'rgba(75, 192, 192, 0.2)',
-                                'rgba(153, 102, 255, 0.2)',
-                                'rgba(255, 159, 64, 0.2)',
-                                'rgba(83, 102, 252, 0.2)'
-                            ]
-                        }]
-                    }
-                });
-            </script>
-        </section>
-        <section>
-            <h2>Location Type </h2>
-            <div>
+            <div class="chart-container">
+                <h2>City/Type Distribution </h2>
                 <canvas id="myChart3"></canvas>
             </div>
+        </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-            <script>
-                const ctt = document.getElementById('myChart3');
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-                new Chart(ctt, {
-                    type: 'radar',
-                    data: {
-                        labels: ["Food court", "Coffee shop", "Plaza", "Shopping mall", "Cafe", "Cocktail bar", "Brunch restaurant"],
-                        datasets: [{
-                            label: 'Tampa',
-                            data: [1, 2, 1, 1, 0, 0, 0],
-                            fill: true,
-                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                            borderColor: 'rgb(255, 99, 132)',
-                            pointBackgroundColor: 'rgb(255, 99, 132)',
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: 'rgb(255, 99, 132)'
-                        },
-                        {
-                            label: 'Orlando',
-                            data: [0, 3, 0, 0, 1, 0, 0],
-                            fill: true,
-                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                            borderColor: 'rgb(54, 162, 235)',
-                            pointBackgroundColor: 'rgb(54, 162, 235)',
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: 'rgb(54, 162, 235)'
-                                                    
-                            },
-                            {
-                                label: 'Clearwater',
-                                data: [0, 2, 0, 0, 0, 0, 1],
-                                fill: true,
-                                backgroundColor: 'rgba(255, 206, 86, 0.2)',
-                                borderColor: 'rgb(255, 206, 86)',
-                                pointBackgroundColor: 'rgb(255, 206, 86)',
-                                pointBorderColor: '#fff',
-                                pointHoverBackgroundColor: '#fff',
-                                pointHoverBorderColor: 'rgb(255, 206, 86)'
+        <script>
+            const ctx = document.getElementById('myChart');
 
-                            },
-                            {
-                                label: 'St. Petersburg',
-                                data: [0, 1, 0, 0, 1, 1, 0],
-                                fill: true,
-                                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                                borderColor: 'rgb(75, 192, 192)',
-                                pointBackgroundColor: 'rgb(75, 192, 192)',
-                                pointBorderColor: '#fff',
-                                pointHoverBackgroundColor: '#fff',
-                                pointHoverBorderColor: 'rgb(75, 192, 192)'
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ["Tampa", "Orlando", "Clearwater", "St. Petersburg"],
+                    datasets: [{
+                        label: '# of Locations',
+                        data: [5, 4, 3, 3],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)'
+                        ],
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+        </script>
 
-                            }]
-                    }
-                });
-            </script>
-        </section>
+        <script>
+            const cty = document.getElementById('myChart2');
 
+            new Chart(cty, {
+                type: 'polarArea',
+                data: {
+                    labels: ["Food court", "Coffee shop", "Plaza", "Shopping mall", "Cafe", "Cocktail bar", "Brunch restaurant"],
+                    datasets: [{
+                        label: 'Location Type',
+                        data: [1, 8, 1, 1, 2, 1, 1],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(83, 102, 252, 0.2)'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+        </script>
 
+        <script>
+            const ctt = document.getElementById('myChart3');
+
+            new Chart(ctt, {
+             type: 'radar',
+                data: {
+                   labels: ["Food court", "Coffee shop", "Plaza", "Shopping mall", "Cafe", "Cocktail bar", "Brunch restaurant"],
+                    datasets: [{
+                        label: 'Tampa',
+                        data: [1, 2, 1, 1, 0, 0, 0],
+                        fill: true,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgb(255, 99, 132)',
+                        pointBackgroundColor: 'rgb(255, 99, 132)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(255, 99, 132)'
+                    },
+                    {
+                        label: 'Orlando',
+                        data: [0, 3, 0, 0, 1, 0, 0],
+                        fill: true,
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgb(54, 162, 235)',
+                        pointBackgroundColor: 'rgb(54, 162, 235)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(54, 162, 235)'
+                    },
+                    {
+                        label: 'Clearwater',
+                        data: [0, 2, 0, 0, 0, 0, 1],
+                        fill: true,
+                        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                        borderColor: 'rgb(255, 206, 86)',
+                        pointBackgroundColor: 'rgb(255, 206, 86)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(255, 206, 86)'
+                    },
+                    {
+                        label: 'St. Petersburg',
+                        data: [0, 1, 0, 0, 1, 1, 0],
+                        fill: true,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgb(75, 192, 192)',
+                        pointBackgroundColor: 'rgb(75, 192, 192)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(75, 192, 192)'
+                }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+        </script>
+
+    <br />
+    <section>
         <table id="locationTable">
             <thead>
                 <tr>
@@ -182,10 +185,10 @@
 
         <script src="js/main.js"></script>
     </section>
-        <br />
+    <br />
 
-        <footer>
-            &copy; 2024 Find My Workspace
-        </footer>
+    <footer>
+        &copy; 2024 Find My Workspace
+    </footer>
 </body>
 </html>
